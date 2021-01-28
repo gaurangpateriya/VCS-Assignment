@@ -23,8 +23,8 @@ public class Main {
                 int data = sc.nextInt();
                 list.add(data);
             } else if (option == 2) {
-                int data = sc.nextInt();
                 System.out.print("Enter the data to delete: ");
+                int data = sc.nextInt();
 
                 list.remove(data);
             } else if (option == 3) {
